@@ -12,7 +12,7 @@ const Hero = ({ title, description, createdAt, fetchData }) => {
       let response;
       if (tit) {
         response = await fetch(
-          `http://localhost:5000/api/deleteTodo/${tit}`,
+          `https://todo-backend-tawh.vercel.app/api/deleteTodo/${tit}`,
           { method: "DELETE" }
         );
       }

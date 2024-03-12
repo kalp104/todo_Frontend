@@ -10,7 +10,7 @@ const AddingNew = ({ fetchData }) => {
     e.preventDefault();
     try {
       // Assuming you have an API endpoint for adding a new todo
-      const response = await fetch("http://localhost:5000/api/createTodo", {
+      const response = await fetch("https://todo-backend-tawh.vercel.app/api/createTodo", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
