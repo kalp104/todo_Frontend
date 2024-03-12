@@ -31,8 +31,7 @@ function App() {
       <div className="bg-[#1d3745]  w-[80%] max-h-[590px]  
       border-b-4 border-[#11212d] rounded-2xl shadow-2xl p-6 mb-6">
         <h1 className="text-[#b9e25a] text-center 
-         font-bold text-4xl pt-3 font ">
-                          Todos </h1>
+         font-bold text-4xl pt-3 font ">  BookWise </h1>
         <div className="flex flex-row justify-between mt-2 bg-[#11212d] rounded-3xl transition-all duration-300 ease-in-out">
            <AddingNew fetchData={fetchData}/>
           <div className="w-full gap-6  max-h-[490px]  overflow-hidden overflow-y-scroll">
