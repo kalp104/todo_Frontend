@@ -51,7 +51,7 @@ const Hero = ({ title, description, createdAt, fetchData, id }) => {
           </form>
         </div>
         <p className="font-normal text-gray-700 dark:text-gray-400 hover:text-blue-400">
-          Date: {new Date(createdAt).toLocaleString().slice(0, 8)}
+          Date: {new Date(createdAt).toLocaleString().slice(0, 9)}
         </p>
         <p
           className="font-normal text-gray-700 dark:text-gray-200 hover:text-pink-500"
