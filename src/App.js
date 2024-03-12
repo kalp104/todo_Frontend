@@ -12,7 +12,7 @@ function App() {
   
   const fetchData = async () => {
     try {
-      const response = await fetch("http://localhost:5000/api/getTodo");
+      const response = await fetch("https://todo-backend-tawh.vercel.app/api/getTodo");
       if (!response.ok) {
         throw new Error(`Error in fetching data`);
       }
