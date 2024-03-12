@@ -40,6 +40,7 @@ function App() {
               {data.map((item) => (
                 <Hero
                   key={item._id}
+                  id = {item._id}
                   title={item.title}
                   description={item.description}
                   createdAt={item.createdAt}

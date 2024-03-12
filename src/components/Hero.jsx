@@ -3,7 +3,7 @@ import { AiOutlineFileDone } from "react-icons/ai";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const Hero = ({ title, description, createdAt, fetchData }) => {
+const Hero = ({ title, description, createdAt, fetchData, id }) => {
   const [tit, setTit] = useState("");
 
   const deleteData = async (e) => {
@@ -43,7 +43,7 @@ const Hero = ({ title, description, createdAt, fetchData }) => {
             <button
               className="bg-yellow-500 text-blackh-7  ml-3 p-1 text-center rounded-md hidden group-hover:inline"
               onClick={() => {
-                setTit(title);
+                setTit(id);
               }}
             >
               <AiOutlineFileDone />
